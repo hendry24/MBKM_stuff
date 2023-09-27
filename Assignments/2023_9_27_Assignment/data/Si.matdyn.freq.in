@@ -1,0 +1,11 @@
+&input
+  asr = 'crystal'
+  flfrc = 'si.fc'
+  dos=.false.
+  q_in_band_form = .true.
+/
+4
+L 30
+gG 30
+X 30
+L 0
