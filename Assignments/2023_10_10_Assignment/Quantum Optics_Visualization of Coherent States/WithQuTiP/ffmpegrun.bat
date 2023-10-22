@@ -1,0 +1,1 @@
+ffmpeg -y -r 10 -i ./pics/%03d.png -c:v libx264 -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2,fps=24,format=yuv420p" animasi.mp4

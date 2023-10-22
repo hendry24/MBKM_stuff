@@ -1,0 +1,14 @@
+&INPUTPP
+     calculation   = 'eps',
+     prefix        = 'AuDots',
+     outdir        = './work/',
+/
+
+&ENERGY_GRID
+     smeartype     = 'gauss',
+     intersmear    = 0.143,
+     intrasmear    = 0.143,
+     wmin          = 0.05,
+     wmax          = 5.0,
+     nw            = 1000
+/
